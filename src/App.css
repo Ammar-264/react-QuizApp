@@ -1,0 +1,74 @@
+.container{
+  height: 88vh;
+}
+.display{
+  width: 100%;
+  height: auto;
+}
+
+.main{
+  padding: 30px 0px;
+  background-color: #F9F3DF;
+  
+}
+
+.topPart{
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0px;
+}
+
+
+
+.secondPart{
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin: 8px 0px;
+
+}
+
+.secondPart .options{
+  display: flex;
+  flex-direction: column;
+}
+.secondPart .options button{
+  width: max-content;
+  border: none;
+  outline: none;
+  background-color: #F4D19B;
+  padding: 3px 18px;
+  border-radius: 5px;
+  margin: 10px 0px ;
+}
+
+
+/* result part design  */
+
+.resultDisplay{
+  width: 100%;
+  height: auto;
+}
+
+.resultTopPart{
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0px;
+}
+
+
+.resultBar{
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin: 8px 0px;
+  text-align: center;
+}
